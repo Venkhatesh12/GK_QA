@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-16T11:09:03 SAST" name="Suite" finished-at="2020-12-16T11:09:51 SAST" duration-ms="48786">
+    <groups>
+    </groups>
+    <test started-at="2020-12-16T11:09:03 SAST" name="Test" finished-at="2020-12-16T11:09:51 SAST" duration-ms="48786">
+      <class name="TestSuite.TestCases">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:TestSuite.TestCases@48fa0f47]" started-at="2020-12-16T11:09:02 SAST" name="beforeSuite" finished-at="2020-12-16T11:09:03 SAST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestSuite.TestCases@48fa0f47]" started-at="2020-12-16T11:09:03 SAST" name="beforeClass" finished-at="2020-12-16T11:09:03 SAST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:TestSuite.TestCases@48fa0f47]" started-at="2020-12-16T11:09:03 SAST" name="beforeMethod" finished-at="2020-12-16T11:09:10 SAST" duration-ms="7173" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestSuite.TestCases.TC01_AddNewAdmin() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TC01_AddNewAdmin()[pri:0, instance:TestSuite.TestCases@48fa0f47]" started-at="2020-12-16T11:09:10 SAST" name="TC01_AddNewAdmin" finished-at="2020-12-16T11:09:19 SAST" duration-ms="9658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_AddNewAdmin -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestSuite.TestCases@48fa0f47]" started-at="2020-12-16T11:09:19 SAST" name="afterMethod" finished-at="2020-12-16T11:09:24 SAST" duration-ms="4591" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC01_AddNewAdmin status=SUCCESS method=TestCases.TC01_AddNewAdmin()[pri:0, instance:TestSuite.TestCases@48fa0f47] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:TestSuite.TestCases@48fa0f47]" started-at="2020-12-16T11:09:24 SAST" name="beforeMethod" finished-at="2020-12-16T11:09:31 SAST" duration-ms="6712" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestSuite.TestCases.TC02_AddNewCustomer() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TC02_AddNewCustomer()[pri:0, instance:TestSuite.TestCases@48fa0f47]" started-at="2020-12-16T11:09:31 SAST" name="TC02_AddNewCustomer" finished-at="2020-12-16T11:09:37 SAST" duration-ms="6677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_AddNewCustomer -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestSuite.TestCases@48fa0f47]" started-at="2020-12-16T11:09:37 SAST" name="afterMethod" finished-at="2020-12-16T11:09:38 SAST" duration-ms="218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC02_AddNewCustomer status=SUCCESS method=TestCases.TC02_AddNewCustomer()[pri:0, instance:TestSuite.TestCases@48fa0f47] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:TestSuite.TestCases@48fa0f47]" started-at="2020-12-16T11:09:38 SAST" name="beforeMethod" finished-at="2020-12-16T11:09:44 SAST" duration-ms="6801" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestSuite.TestCases.TC03_AddNewCustomerKeyword() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TC03_AddNewCustomerKeyword()[pri:0, instance:TestSuite.TestCases@48fa0f47]" started-at="2020-12-16T11:09:44 SAST" name="TC03_AddNewCustomerKeyword" finished-at="2020-12-16T11:09:51 SAST" duration-ms="6707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_AddNewCustomerKeyword -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestSuite.TestCases@48fa0f47]" started-at="2020-12-16T11:09:51 SAST" name="afterMethod" finished-at="2020-12-16T11:09:51 SAST" duration-ms="209" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC03_AddNewCustomerKeyword status=SUCCESS method=TestCases.TC03_AddNewCustomerKeyword()[pri:0, instance:TestSuite.TestCases@48fa0f47] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- TestSuite.TestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
